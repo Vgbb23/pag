@@ -1,0 +1,1257 @@
+@charset "UTF-8";
+
+.side-sheet_sideSheet__8kq8G:before {
+    background-color: rgba(34, 34, 34, .8);
+    overflow: hidden
+}
+
+.side-sheet_sideSheetClose__aWpMb {
+    background: none;
+    border: 0;
+    color: #fff;
+    font: 700 1.2rem/1.4rem UOLText, Arial, "sans-serif";
+    padding: 0
+}
+
+.side-sheet_sideSheetClose__aWpMb:after {
+    content: "×";
+    font-size: 1.6em;
+    padding-left: .5rem;
+    vertical-align: middle
+}
+
+.side-sheet_sideSheet__8kq8G {
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000
+}
+
+.side-sheet_sideSheet__8kq8G:before {
+    content: "";
+    display: block;
+    height: inherit;
+    width: inherit
+}
+
+.side-sheet_sideSheetBox__4QmTH {
+    background-color: #fff;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    max-width: 32rem;
+    padding: 3.2rem 2.4rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%
+}
+
+.side-sheet_sideSheetBoxMedium__jrACM {
+    max-width: 48rem
+}
+
+.side-sheet_sideSheetHeader__vuKNn {
+    margin-bottom: 1.6rem;
+    text-align: end
+}
+
+.side-sheet_sideSheetClose__aWpMb {
+    color: #0078ad
+}
+
+.side-sheet_sideSheetContent__JjVlX {
+    -webkit-flex: 1;
+    flex: 1;
+    overflow-y: auto
+}
+
+.side-sheet_sideSheetContent__JjVlX>.side-sheet_sideSheetTitle__RmvNt~.side-sheet_sideSheetComplementaryText__VnwOv {
+    margin-top: .8rem
+}
+
+.side-sheet_sideSheetContent__JjVlX>.side-sheet_sideSheetComplementaryText__VnwOv~*,
+.side-sheet_sideSheetContent__JjVlX>.side-sheet_sideSheetTitle__RmvNt~:not(.side-sheet_sideSheetComplementaryText__VnwOv),
+.side-sheet_sideSheetContent__JjVlX~.side-sheet_sideSheetFooter__SpVqc {
+    margin-top: 2.4rem
+}
+
+.side-sheet_sideSheetComplementaryText__VnwOv,
+.side-sheet_sideSheetTitle__RmvNt {
+    margin: 0
+}
+
+.side-sheet_sideSheetTitle__RmvNt {
+    color: #222;
+    font: 400 2rem/2.4rem UOLText, Arial, "sans-serif"
+}
+
+.side-sheet_sideSheetComplementaryText__VnwOv {
+    color: #595959;
+    font: 400 1.6rem/2.2rem UOLText, Arial, "sans-serif"
+}
+
+.side-sheet_sideSheetFooter__SpVqc {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column
+}
+
+.side-sheet_sideSheetFooter__SpVqc>:not(:first-child) {
+    margin-top: 1.6rem
+}
+
+.side-sheet_sideSheetAnimationIn__7jZ8K:before {
+    -webkit-animation: side-sheet_overlay-fade-in__47Dnf .3s ease-out;
+    animation: side-sheet_overlay-fade-in__47Dnf .3s ease-out
+}
+
+.side-sheet_sideSheetAnimationIn__7jZ8K .side-sheet_sideSheetBox__4QmTH {
+    -webkit-animation: side-sheet_box-slide-in__06g3h .3s ease-out;
+    animation: side-sheet_box-slide-in__06g3h .3s ease-out
+}
+
+.side-sheet_sideSheetAnimationOut__oytxd:before {
+    -webkit-animation: side-sheet_overlay-fade-out__oym7j .3s ease-out;
+    animation: side-sheet_overlay-fade-out__oym7j .3s ease-out
+}
+
+.side-sheet_sideSheetAnimationOut__oytxd .side-sheet_sideSheetBox__4QmTH {
+    -webkit-animation: side-sheet_box-slide-out__qf9kQ .3s ease-out;
+    animation: side-sheet_box-slide-out__qf9kQ .3s ease-out
+}
+
+@-webkit-keyframes side-sheet_overlay-fade-in__47Dnf {
+    0% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes side-sheet_overlay-fade-in__47Dnf {
+    0% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes side-sheet_overlay-fade-out__oym7j {
+    0% {
+        opacity: 1
+    }
+
+    to {
+        opacity: 0
+    }
+}
+
+@keyframes side-sheet_overlay-fade-out__oym7j {
+    0% {
+        opacity: 1
+    }
+
+    to {
+        opacity: 0
+    }
+}
+
+@-webkit-keyframes side-sheet_box-slide-in__06g3h {
+    0% {
+        -webkit-transform: translateX(1000px);
+        transform: translateX(1000px)
+    }
+
+    to {
+        -webkit-transform: translateX(0);
+        transform: translateX(0)
+    }
+}
+
+@keyframes side-sheet_box-slide-in__06g3h {
+    0% {
+        -webkit-transform: translateX(1000px);
+        transform: translateX(1000px)
+    }
+
+    to {
+        -webkit-transform: translateX(0);
+        transform: translateX(0)
+    }
+}
+
+@-webkit-keyframes side-sheet_box-slide-out__qf9kQ {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0)
+    }
+
+    to {
+        -webkit-transform: translateX(1000px);
+        transform: translateX(1000px)
+    }
+}
+
+@keyframes side-sheet_box-slide-out__qf9kQ {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0)
+    }
+
+    to {
+        -webkit-transform: translateX(1000px);
+        transform: translateX(1000px)
+    }
+}
+
+.ps-brand-x30,
+.ps-brand-x40,
+.ps-brand-x60 {
+    display: inline-block;
+    overflow: hidden;
+    text-indent: -5000px;
+    border: solid #eee;
+    border-width: 1px 1px 2px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: #fff
+}
+
+.ps-brand-x30 {
+    background-image: url(https://acq-static-pages.pagseguro.com.br/static-pages/campanhas/_next/static/media/ps-brands-x30.30effd09.png);
+    display: none;
+    width: 45px;
+    height: 30px;
+    background-size: 500px 430px
+}
+
+.ps-brand-x30--alelo {
+    background-position: -65px 0;
+    display: inline-block
+}
+
+.ps-brand-x30--amex {
+    background-position: -325px -150px;
+    display: inline-block
+}
+
+.ps-brand-x30--apple-pay {
+    background-position: 0 -50px;
+    display: inline-block
+}
+
+.ps-brand-x30--aura {
+    background-position: -65px -50px;
+    display: inline-block
+}
+
+.ps-brand-x30--avista {
+    background-position: -130px 0;
+    display: inline-block
+}
+
+.ps-brand-x30--balance {
+    background-position: -130px -50px;
+    display: inline-block
+}
+
+.ps-brand-x30--bancoob {
+    background-position: 0 -100px;
+    display: inline-block
+}
+
+.ps-brand-x30--banesecard {
+    background-position: -65px -100px;
+    display: inline-block
+}
+
+.ps-brand-x30--banri-compras {
+    background-position: -130px -100px;
+    display: inline-block
+}
+
+.ps-brand-x30--banrisul {
+    background-position: -195px 0;
+    display: inline-block
+}
+
+.ps-brand-x30--bb {
+    background-position: -195px -50px;
+    display: inline-block
+}
+
+.ps-brand-x30--ben {
+    background-position: -195px -100px;
+    display: inline-block
+}
+
+.ps-brand-x30--boleto {
+    background-position: 0 -150px;
+    display: inline-block
+}
+
+.ps-brand-x30--bradesco {
+    background-position: -65px -150px;
+    display: inline-block
+}
+
+.ps-brand-x30--brasilcard {
+    background-position: -130px -150px;
+    display: inline-block
+}
+
+.ps-brand-x30--cabal-debito {
+    background-position: -195px -150px;
+    display: inline-block
+}
+
+.ps-brand-x30--cabal {
+    background-position: 0 -200px;
+    display: inline-block
+}
+
+.ps-brand-x30--caixa {
+    background-position: -65px -200px;
+    display: inline-block
+}
+
+.ps-brand-x30--cardban {
+    background-position: -130px -200px;
+    display: inline-block
+}
+
+.ps-brand-x30--cashback-pagbank {
+    background-position: -195px -200px;
+    display: inline-block
+}
+
+.ps-brand-x30--cielo {
+    background-position: -260px 0;
+    display: inline-block
+}
+
+.ps-brand-x30--credz {
+    background-position: -260px -50px;
+    display: inline-block
+}
+
+.ps-brand-x30--default {
+    background-position: -260px -100px;
+    display: inline-block
+}
+
+.ps-brand-x30--diners {
+    background-position: -260px -150px;
+    display: inline-block
+}
+
+.ps-brand-x30--discover {
+    background-position: -260px -200px;
+    display: inline-block
+}
+
+.ps-brand-x30--elo {
+    background-position: 0 -250px;
+    display: inline-block
+}
+
+.ps-brand-x30--fortbrasil {
+    background-position: -65px -250px;
+    display: inline-block
+}
+
+.ps-brand-x30--goodcard {
+    background-position: -130px -250px;
+    display: inline-block
+}
+
+.ps-brand-x30--google-pay {
+    background-position: -195px -250px;
+    display: inline-block
+}
+
+.ps-brand-x30--grandcard {
+    background-position: -260px -250px;
+    display: inline-block
+}
+
+.ps-brand-x30--greencard {
+    background-position: -325px 0;
+    display: inline-block
+}
+
+.ps-brand-x30--hiper {
+    background-position: -325px -50px;
+    display: inline-block
+}
+
+.ps-brand-x30--hipercard {
+    background-position: -325px -100px;
+    display: inline-block
+}
+
+.ps-brand-x30--itau {
+    background-position: 0 0;
+    display: inline-block
+}
+
+.ps-brand-x30--jcb {
+    background-position: -325px -200px;
+    display: inline-block
+}
+
+.ps-brand-x30--maestro {
+    background-position: -325px -250px;
+    display: inline-block
+}
+
+.ps-brand-x30--mais {
+    background-position: 0 -300px;
+    display: inline-block
+}
+
+.ps-brand-x30--mastercard {
+    background-position: -65px -300px;
+    display: inline-block
+}
+
+.ps-brand-x30--nordeste {
+    background-position: -130px -300px;
+    display: inline-block
+}
+
+.ps-brand-x30--ourocard {
+    background-position: -195px -300px;
+    display: inline-block
+}
+
+.ps-brand-x30--pagbank {
+    background-position: -260px -300px;
+    display: inline-block
+}
+
+.ps-brand-x30--personalcard {
+    background-position: -325px -300px;
+    display: inline-block
+}
+
+.ps-brand-x30--pix {
+    background-position: -390px 0;
+    display: inline-block
+}
+
+.ps-brand-x30--plenocard {
+    background-position: -390px -50px;
+    display: inline-block
+}
+
+.ps-brand-x30--pluxee {
+    background-position: -390px -100px;
+    display: inline-block
+}
+
+.ps-brand-x30--prepaid-card {
+    background-position: -390px -150px;
+    display: inline-block
+}
+
+.ps-brand-x30--qr-code {
+    background-position: -390px -200px;
+    display: inline-block
+}
+
+.ps-brand-x30--realcard {
+    background-position: -390px -250px;
+    display: inline-block
+}
+
+.ps-brand-x30--redeshop {
+    background-position: -390px -300px;
+    display: inline-block
+}
+
+.ps-brand-x30--safra {
+    background-position: 0 -350px;
+    display: inline-block
+}
+
+.ps-brand-x30--samsung-pay {
+    background-position: -65px -350px;
+    display: inline-block
+}
+
+.ps-brand-x30--santander {
+    background-position: -130px -350px;
+    display: inline-block
+}
+
+.ps-brand-x30--senff {
+    background-position: -195px -350px;
+    display: inline-block
+}
+
+.ps-brand-x30--sicredi {
+    background-position: -260px -350px;
+    display: inline-block
+}
+
+.ps-brand-x30--sorocred {
+    background-position: -325px -350px;
+    display: inline-block
+}
+
+.ps-brand-x30--stone {
+    background-position: -390px -350px;
+    display: inline-block
+}
+
+.ps-brand-x30--ticket {
+    background-position: 0 -400px;
+    display: inline-block
+}
+
+.ps-brand-x30--upbrasil {
+    background-position: -65px -400px;
+    display: inline-block
+}
+
+.ps-brand-x30--valecard {
+    background-position: -130px -400px;
+    display: inline-block
+}
+
+.ps-brand-x30--verdecard {
+    background-position: -195px -400px;
+    display: inline-block
+}
+
+.ps-brand-x30--visa-electron {
+    background-position: -260px -400px;
+    display: inline-block
+}
+
+.ps-brand-x30--visa {
+    background-position: -325px -400px;
+    display: inline-block
+}
+
+.ps-brand-x30--volus {
+    background-position: -390px -400px;
+    display: inline-block
+}
+
+.ps-brand-x30--vr {
+    background-position: -455px 0;
+    display: inline-block
+}
+
+.ps-brand-x30--policard {
+    background-position: -455px -50px;
+    display: inline-block
+}
+
+.ps-brand-x30--sodexo {
+    background-position: -455px -100px;
+    display: inline-block
+}
+
+.ps-brand-x40 {
+    background-image: url(https://acq-static-pages.pagseguro.com.br/static-pages/campanhas/_next/static/media/ps-brands-x40.ee47cd04.png);
+    display: none;
+    width: 60px;
+    height: 40px;
+    background-size: 620px 520px
+}
+
+.ps-brand-x40--alelo {
+    background-position: -80px 0;
+    display: inline-block
+}
+
+.ps-brand-x40--amex {
+    background-position: -400px -180px;
+    display: inline-block
+}
+
+.ps-brand-x40--apple-pay {
+    background-position: 0 -60px;
+    display: inline-block
+}
+
+.ps-brand-x40--aura {
+    background-position: -80px -60px;
+    display: inline-block
+}
+
+.ps-brand-x40--avista {
+    background-position: -160px 0;
+    display: inline-block
+}
+
+.ps-brand-x40--balance {
+    background-position: -160px -60px;
+    display: inline-block
+}
+
+.ps-brand-x40--bancoob {
+    background-position: 0 -120px;
+    display: inline-block
+}
+
+.ps-brand-x40--banesecard {
+    background-position: -80px -120px;
+    display: inline-block
+}
+
+.ps-brand-x40--banri-compras {
+    background-position: -160px -120px;
+    display: inline-block
+}
+
+.ps-brand-x40--banrisul {
+    background-position: 0 -180px;
+    display: inline-block
+}
+
+.ps-brand-x40--bb {
+    background-position: -80px -180px;
+    display: inline-block
+}
+
+.ps-brand-x40--ben {
+    background-position: -160px -180px;
+    display: inline-block
+}
+
+.ps-brand-x40--boleto {
+    background-position: -240px 0;
+    display: inline-block
+}
+
+.ps-brand-x40--bradesco {
+    background-position: -240px -60px;
+    display: inline-block
+}
+
+.ps-brand-x40--brasilcard {
+    background-position: -240px -120px;
+    display: inline-block
+}
+
+.ps-brand-x40--cabal-debito {
+    background-position: -240px -180px;
+    display: inline-block
+}
+
+.ps-brand-x40--cabal {
+    background-position: 0 -240px;
+    display: inline-block
+}
+
+.ps-brand-x40--caixa {
+    background-position: -80px -240px;
+    display: inline-block
+}
+
+.ps-brand-x40--cardban {
+    background-position: -160px -240px;
+    display: inline-block
+}
+
+.ps-brand-x40--cashback-pagbank {
+    background-position: -240px -240px;
+    display: inline-block
+}
+
+.ps-brand-x40--cielo {
+    background-position: -320px 0;
+    display: inline-block
+}
+
+.ps-brand-x40--credz {
+    background-position: -320px -60px;
+    display: inline-block
+}
+
+.ps-brand-x40--default {
+    background-position: -320px -120px;
+    display: inline-block
+}
+
+.ps-brand-x40--diners {
+    background-position: -320px -180px;
+    display: inline-block
+}
+
+.ps-brand-x40--discover {
+    background-position: -320px -240px;
+    display: inline-block
+}
+
+.ps-brand-x40--elo {
+    background-position: 0 -300px;
+    display: inline-block
+}
+
+.ps-brand-x40--fortbrasil {
+    background-position: -80px -300px;
+    display: inline-block
+}
+
+.ps-brand-x40--goodcard {
+    background-position: -160px -300px;
+    display: inline-block
+}
+
+.ps-brand-x40--google-pay {
+    background-position: -240px -300px;
+    display: inline-block
+}
+
+.ps-brand-x40--grandcard {
+    background-position: -320px -300px;
+    display: inline-block
+}
+
+.ps-brand-x40--greencard {
+    background-position: -400px 0;
+    display: inline-block
+}
+
+.ps-brand-x40--hiper {
+    background-position: -400px -60px;
+    display: inline-block
+}
+
+.ps-brand-x40--hipercard {
+    background-position: -400px -120px;
+    display: inline-block
+}
+
+.ps-brand-x40--itau {
+    background-position: 0 0;
+    display: inline-block
+}
+
+.ps-brand-x40--jcb {
+    background-position: -400px -240px;
+    display: inline-block
+}
+
+.ps-brand-x40--maestro {
+    background-position: -400px -300px;
+    display: inline-block
+}
+
+.ps-brand-x40--mais {
+    background-position: 0 -360px;
+    display: inline-block
+}
+
+.ps-brand-x40--mastercard {
+    background-position: -80px -360px;
+    display: inline-block
+}
+
+.ps-brand-x40--nordeste {
+    background-position: -160px -360px;
+    display: inline-block
+}
+
+.ps-brand-x40--ourocard {
+    background-position: -240px -360px;
+    display: inline-block
+}
+
+.ps-brand-x40--pagbank {
+    background-position: -320px -360px;
+    display: inline-block
+}
+
+.ps-brand-x40--personalcard {
+    background-position: -400px -360px;
+    display: inline-block
+}
+
+.ps-brand-x40--pix {
+    background-position: 0 -420px;
+    display: inline-block
+}
+
+.ps-brand-x40--plenocard {
+    background-position: -80px -420px;
+    display: inline-block
+}
+
+.ps-brand-x40--pluxee {
+    background-position: -160px -420px;
+    display: inline-block
+}
+
+.ps-brand-x40--prepaid-card {
+    background-position: -240px -420px;
+    display: inline-block
+}
+
+.ps-brand-x40--qr-code {
+    background-position: -320px -420px;
+    display: inline-block
+}
+
+.ps-brand-x40--realcard {
+    background-position: -400px -420px;
+    display: inline-block
+}
+
+.ps-brand-x40--redeshop {
+    background-position: -480px 0;
+    display: inline-block
+}
+
+.ps-brand-x40--safra {
+    background-position: -480px -60px;
+    display: inline-block
+}
+
+.ps-brand-x40--samsung-pay {
+    background-position: -480px -120px;
+    display: inline-block
+}
+
+.ps-brand-x40--santander {
+    background-position: -480px -180px;
+    display: inline-block
+}
+
+.ps-brand-x40--senff {
+    background-position: -480px -240px;
+    display: inline-block
+}
+
+.ps-brand-x40--sicredi {
+    background-position: -480px -300px;
+    display: inline-block
+}
+
+.ps-brand-x40--sorocred {
+    background-position: -480px -360px;
+    display: inline-block
+}
+
+.ps-brand-x40--stone {
+    background-position: -480px -420px;
+    display: inline-block
+}
+
+.ps-brand-x40--ticket {
+    background-position: 0 -480px;
+    display: inline-block
+}
+
+.ps-brand-x40--upbrasil {
+    background-position: -80px -480px;
+    display: inline-block
+}
+
+.ps-brand-x40--valecard {
+    background-position: -160px -480px;
+    display: inline-block
+}
+
+.ps-brand-x40--verdecard {
+    background-position: -240px -480px;
+    display: inline-block
+}
+
+.ps-brand-x40--visa-electron {
+    background-position: -320px -480px;
+    display: inline-block
+}
+
+.ps-brand-x40--visa {
+    background-position: -400px -480px;
+    display: inline-block
+}
+
+.ps-brand-x40--volus {
+    background-position: -480px -480px;
+    display: inline-block
+}
+
+.ps-brand-x40--vr {
+    background-position: -560px 0;
+    display: inline-block
+}
+
+.ps-brand-x40--policard {
+    background-position: -560px -60px;
+    display: inline-block
+}
+
+.ps-brand-x40--sodexo {
+    background-position: -560px -120px;
+    display: inline-block
+}
+
+.ps-brand-x60 {
+    background-image: url(https://acq-static-pages.pagseguro.com.br/static-pages/campanhas/_next/static/media/ps-brands-x60.97bf9533.png);
+    display: none;
+    width: 90px;
+    height: 60px;
+    background-size: 860px 700px
+}
+
+.ps-brand-x60--alelo {
+    background-position: -110px 0;
+    display: inline-block
+}
+
+.ps-brand-x60--amex {
+    background-position: -550px -240px;
+    display: inline-block
+}
+
+.ps-brand-x60--apple-pay {
+    background-position: 0 -80px;
+    display: inline-block
+}
+
+.ps-brand-x60--aura {
+    background-position: -110px -80px;
+    display: inline-block
+}
+
+.ps-brand-x60--avista {
+    background-position: -220px 0;
+    display: inline-block
+}
+
+.ps-brand-x60--balance {
+    background-position: -220px -80px;
+    display: inline-block
+}
+
+.ps-brand-x60--bancoob {
+    background-position: 0 -160px;
+    display: inline-block
+}
+
+.ps-brand-x60--banesecard {
+    background-position: -110px -160px;
+    display: inline-block
+}
+
+.ps-brand-x60--banri-compras {
+    background-position: -220px -160px;
+    display: inline-block
+}
+
+.ps-brand-x60--banrisul {
+    background-position: 0 -240px;
+    display: inline-block
+}
+
+.ps-brand-x60--bb {
+    background-position: -110px -240px;
+    display: inline-block
+}
+
+.ps-brand-x60--ben {
+    background-position: -220px -240px;
+    display: inline-block
+}
+
+.ps-brand-x60--boleto {
+    background-position: -330px 0;
+    display: inline-block
+}
+
+.ps-brand-x60--bradesco {
+    background-position: -330px -80px;
+    display: inline-block
+}
+
+.ps-brand-x60--brasilcard {
+    background-position: -330px -160px;
+    display: inline-block
+}
+
+.ps-brand-x60--cabal-debito {
+    background-position: -330px -240px;
+    display: inline-block
+}
+
+.ps-brand-x60--cabal {
+    background-position: 0 -320px;
+    display: inline-block
+}
+
+.ps-brand-x60--caixa {
+    background-position: -110px -320px;
+    display: inline-block
+}
+
+.ps-brand-x60--cardban {
+    background-position: -220px -320px;
+    display: inline-block
+}
+
+.ps-brand-x60--cashback-pagbank {
+    background-position: -330px -320px;
+    display: inline-block
+}
+
+.ps-brand-x60--cielo {
+    background-position: -440px 0;
+    display: inline-block
+}
+
+.ps-brand-x60--credz {
+    background-position: -440px -80px;
+    display: inline-block
+}
+
+.ps-brand-x60--default {
+    background-position: -440px -160px;
+    display: inline-block
+}
+
+.ps-brand-x60--diners {
+    background-position: -440px -240px;
+    display: inline-block
+}
+
+.ps-brand-x60--discover {
+    background-position: -440px -320px;
+    display: inline-block
+}
+
+.ps-brand-x60--elo {
+    background-position: 0 -400px;
+    display: inline-block
+}
+
+.ps-brand-x60--fortbrasil {
+    background-position: -110px -400px;
+    display: inline-block
+}
+
+.ps-brand-x60--goodcard {
+    background-position: -220px -400px;
+    display: inline-block
+}
+
+.ps-brand-x60--google-pay {
+    background-position: -330px -400px;
+    display: inline-block
+}
+
+.ps-brand-x60--grandcard {
+    background-position: -440px -400px;
+    display: inline-block
+}
+
+.ps-brand-x60--greencard {
+    background-position: -550px 0;
+    display: inline-block
+}
+
+.ps-brand-x60--hiper {
+    background-position: -550px -80px;
+    display: inline-block
+}
+
+.ps-brand-x60--hipercard {
+    background-position: -550px -160px;
+    display: inline-block
+}
+
+.ps-brand-x60--itau {
+    background-position: 0 0;
+    display: inline-block
+}
+
+.ps-brand-x60--jcb {
+    background-position: -550px -320px;
+    display: inline-block
+}
+
+.ps-brand-x60--maestro {
+    background-position: -550px -400px;
+    display: inline-block
+}
+
+.ps-brand-x60--mais {
+    background-position: 0 -480px;
+    display: inline-block
+}
+
+.ps-brand-x60--mastercard {
+    background-position: -110px -480px;
+    display: inline-block
+}
+
+.ps-brand-x60--nordeste {
+    background-position: -220px -480px;
+    display: inline-block
+}
+
+.ps-brand-x60--ourocard {
+    background-position: -330px -480px;
+    display: inline-block
+}
+
+.ps-brand-x60--pagbank {
+    background-position: -440px -480px;
+    display: inline-block
+}
+
+.ps-brand-x60--personalcard {
+    background-position: -550px -480px;
+    display: inline-block
+}
+
+.ps-brand-x60--pix {
+    background-position: 0 -560px;
+    display: inline-block
+}
+
+.ps-brand-x60--plenocard {
+    background-position: -110px -560px;
+    display: inline-block
+}
+
+.ps-brand-x60--pluxee {
+    background-position: -220px -560px;
+    display: inline-block
+}
+
+.ps-brand-x60--prepaid-card {
+    background-position: -330px -560px;
+    display: inline-block
+}
+
+.ps-brand-x60--qr-code {
+    background-position: -440px -560px;
+    display: inline-block
+}
+
+.ps-brand-x60--realcard {
+    background-position: -550px -560px;
+    display: inline-block
+}
+
+.ps-brand-x60--redeshop {
+    background-position: -660px 0;
+    display: inline-block
+}
+
+.ps-brand-x60--safra {
+    background-position: -660px -80px;
+    display: inline-block
+}
+
+.ps-brand-x60--samsung-pay {
+    background-position: -660px -160px;
+    display: inline-block
+}
+
+.ps-brand-x60--santander {
+    background-position: -660px -240px;
+    display: inline-block
+}
+
+.ps-brand-x60--senff {
+    background-position: -660px -320px;
+    display: inline-block
+}
+
+.ps-brand-x60--sicredi {
+    background-position: -660px -400px;
+    display: inline-block
+}
+
+.ps-brand-x60--sorocred {
+    background-position: -660px -480px;
+    display: inline-block
+}
+
+.ps-brand-x60--stone {
+    background-position: -660px -560px;
+    display: inline-block
+}
+
+.ps-brand-x60--ticket {
+    background-position: 0 -640px;
+    display: inline-block
+}
+
+.ps-brand-x60--upbrasil {
+    background-position: -110px -640px;
+    display: inline-block
+}
+
+.ps-brand-x60--valecard {
+    background-position: -220px -640px;
+    display: inline-block
+}
+
+.ps-brand-x60--verdecard {
+    background-position: -330px -640px;
+    display: inline-block
+}
+
+.ps-brand-x60--visa-electron {
+    background-position: -440px -640px;
+    display: inline-block
+}
+
+.ps-brand-x60--visa {
+    background-position: -550px -640px;
+    display: inline-block
+}
+
+.ps-brand-x60--volus {
+    background-position: -660px -640px;
+    display: inline-block
+}
+
+.ps-brand-x60--vr {
+    background-position: -770px 0;
+    display: inline-block
+}
+
+.ps-brand-x60--policard {
+    background-position: -770px -80px;
+    display: inline-block
+}
+
+.ps-brand-x60--sodexo {
+    background-position: -770px -160px;
+    display: inline-block
+}
+
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:1.5dppx) {
+    .ps-brand-x30 {
+        background-image: url(https://acq-static-pages.pagseguro.com.br/static-pages/campanhas/_next/static/media/ps-brands-x30@2x.7525f017.png)
+    }
+
+    .ps-brand-x40 {
+        background-image: url(https://acq-static-pages.pagseguro.com.br/static-pages/campanhas/_next/static/media/ps-brands-x40@2x.6e6840e6.png)
+    }
+
+    .ps-brand-x60 {
+        background-image: url(https://acq-static-pages.pagseguro.com.br/static-pages/campanhas/_next/static/media/ps-brands-x60@2x.eea6f40e.png)
+    }
+}

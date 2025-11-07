@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagamento via PIX</title>
+  <link rel="stylesheet" href="css/pagamento.css">
+  <script src="js/utm-tracker.js"></script>
+</head>
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <button class="back" onclick="history.back()">←</button>
+      <img src="images/logo3.png" alt="Logo" class="logo">
+    </div>
+
+    <div class="content">
+      <div class="status">
+        <span class="pil"></span>
+        <span>PIX disponível. Conclua o pagamento no seu banco.</span>
+      </div>
+
+      <h1 class="title">Pagar com PIX - <span id="valor">R$ 0,00</span></h1>
+      <p>Você está adquirindo <b id="quantidade">1</b> unidade(s).</p>
+
+      <div class="steps">
+        <div class="step">
+          <h3>Como pagar</h3>
+          <p>① Clique no botão <b>Copiar Código Pix</b>.</p>
+          <p>② Abra o aplicativo do seu banco e acesse <b>Pix</b>.</p>
+          <p>③ Selecione a opção <b>Pix Copia e Cola</b> e cole o código.</p>
+          <p>④ Após a confirmação do pagamento, retorne a esta página e aguarde alguns segundos.</p>
+        </div>
+      </div>
+
+      <div class="qr">
+        <img id="qrcode" alt="QR Code PIX" />
+        <div id="pixCodeBox" class="pix-code"></div>
+        <button id="btnCopiar" class="copy">📋 Copiar Código Pix</button>
+        <div id="timer" class="timer"></div>
+        <div id="statusLine" class="status-line"><span class="status-dot"></span><span id="statusText">Aguardando pagamento...</span></div>
+      </div>
+
+      <div class="logos">
+        <img src="images/logo3.png" alt="Meios de pagamento" onerror="this.style.display='none'">
+      </div>
+
+      <div class="legal">
+        Pagamentos processados com segurança. O PIX expira após o tempo indicado. Caso expire, gere novamente.
+      </div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast">Código PIX copiado!</div>
+
+  <script src="js/pagamento.js"></script>
+</body>
+</html>
